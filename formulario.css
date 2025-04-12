@@ -1,0 +1,106 @@
+:root {
+    --fonte: 'Roboto', sans-serif; /* Fonte padrão */
+}
+
+nav a {
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+
+nav a:hover {
+    background-color: #8400ff; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o tamanho do botão ao passar o mouse */
+}
+
+button, nav a {
+    border: 2px solid black; /* Adiciona borda preta */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 5px 10px; /* Espaçamento interno */
+}
+
+body {
+    font-family: var(--fonte);
+    font-size: 16px;
+    line-height: 1.5;
+    background: white; /* Fundo branco */
+    color: black; /* Cor do texto preta */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh;
+    box-sizing: border-box;
+    text-shadow: none; /* Remove a sombra do texto */
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+img {
+    
+    width: 100px; /* tamanho da imagem */
+    height: 100px; /* tamanho da imagem/
+    border-radius: 50%; /* imagem circular */
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%); /* centralizar verticalmente */
+}
+
+h2 {
+    text-align: left;
+    margin: 10px 0; /* Margem superior e inferior de 10px */
+    margin-bottom: 190px; /* Reduz a margem inferior para aproximar do email e senha */
+    color: black; /* Cor branca para o título */}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #3333331c; /* Fundo semi-transparente */
+    color: white;
+    margin-left: 30px; /* Aplica a margem à esquerda */
+}
+
+button {
+    width: 55%;
+    padding: 10px;
+    background-color: #8400ff; /* Cor do botão */
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
+    margin-left: 30px;
+}
+
+button:hover {
+    background-color: #8400ffe3;
+    transform: scale(1.1); /* Aumenta o tamanho do botão ao passar o mouse */
+    transition: transform 0.2s ease-in-out; /* Suaviza a transição */
+
+
+}   
+               
